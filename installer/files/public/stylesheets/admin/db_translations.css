@@ -1,0 +1,11 @@
+.changed-original {
+background-color:orange !important;
+
+}
+
+.changed-original:before {
+content: 'original translation changed:<br/>';
+    padding-right: 5px;
+    font-style: italic;
+    color: orange;
+}
